@@ -1,0 +1,26 @@
+﻿cl : командная строка warning D9035: использование параметра "clr:pure" нежелательно, он будет удален в следующих выпусках
+  stdafx.cpp
+cl : командная строка warning D9035: использование параметра "clr:pure" нежелательно, он будет удален в следующих выпусках
+  AssemblyInfo.cpp
+c:\users\i5\desktop\дз бжд\windowsformsapp\assemblyinfo.cpp(40): warning C4947: System::Security::Permissions::SecurityAction::RequestMinimum: помечен как устаревший
+  c:\users\i5\desktop\дз бжд\windowsformsapp\assemblyinfo.cpp(40): note: Сообщение: "Assembly level declarative security is obsolete and is no longer enforced by the CLR by default. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information."
+  Formula1.cpp
+  Graph.cpp
+  WindowsFormsApp.cpp
+c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(242): warning C4101: formula1: неиспользованная локальная переменная
+c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(240): warning C4101: scheme: неиспользованная локальная переменная
+c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(248): warning C4101: V: неиспользованная локальная переменная
+c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(245): warning C4101: R3: неиспользованная локальная переменная
+c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(244): warning C4101: formula3: неиспользованная локальная переменная
+c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(249): warning C4101: znamenatel: неиспользованная локальная переменная
+c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(246): warning C4101: Lp2: неиспользованная локальная переменная
+c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(245): warning C4101: R2: неиспользованная локальная переменная
+c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(245): warning C4101: R1: неиспользованная локальная переменная
+c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(246): warning C4101: Lp3: неиспользованная локальная переменная
+c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(246): warning C4101: Lp1: неиспользованная локальная переменная
+c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(243): warning C4101: formula2: неиспользованная локальная переменная
+c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(241): warning C4101: variant: неиспользованная локальная переменная
+  Создание кода...
+cl : командная строка warning D9035: использование параметра "clr:pure" нежелательно, он будет удален в следующих выпусках
+  .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+  WindowsFormsApp.vcxproj -> C:\Users\i5\Desktop\Дз БЖД\Release\WindowsFormsApp.exe
