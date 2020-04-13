@@ -2,20 +2,9 @@
   Formula1.cpp
   Graph.cpp
   WindowsFormsApp.cpp
-c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(242): warning C4101: formula1: неиспользованная локальная переменная
-c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(240): warning C4101: scheme: неиспользованная локальная переменная
-c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(248): warning C4101: V: неиспользованная локальная переменная
-c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(245): warning C4101: R3: неиспользованная локальная переменная
-c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(244): warning C4101: formula3: неиспользованная локальная переменная
-c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(249): warning C4101: znamenatel: неиспользованная локальная переменная
-c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(246): warning C4101: Lp2: неиспользованная локальная переменная
-c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(245): warning C4101: R2: неиспользованная локальная переменная
-c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(245): warning C4101: R1: неиспользованная локальная переменная
-c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(246): warning C4101: Lp3: неиспользованная локальная переменная
-c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(246): warning C4101: Lp1: неиспользованная локальная переменная
-c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(243): warning C4101: formula2: неиспользованная локальная переменная
-c:\users\i5\desktop\дз бжд\windowsformsapp\form1.h(241): warning C4101: variant: неиспользованная локальная переменная
   Создание кода...
+cl : командная строка warning D9035: использование параметра "clr:pure" нежелательно, он будет удален в следующих выпусках
+  .NETFramework,Version=v4.5.AssemblyAttributes.cpp
   AssemblyInfo.obj : /DEBUG:FASTLINK не поддерживается, если присутствует управляемый код; выполняется перезапуск компоновки с /DEBUG:FULL
   AssemblyInfo.obj : юсэрЁєцхэ ьюфєы№ MSIL; фы  MSIL яюёыхфютрЄхы№эр  ъюьяюэютър юЄъы■ўхэр; т√яюыэ хЄё  яюыэр  ъюьяюэютър
   WindowsFormsApp.vcxproj -> C:\Users\i5\Desktop\Дз БЖД\Debug\WindowsFormsApp.exe

@@ -90,14 +90,14 @@ namespace WindowsFormsApp {
 	private: System::Windows::Forms::Label^  label3;
 	private: System::Windows::Forms::Label^  label4;
 	private: System::Windows::Forms::Label^  label5;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^  Column1;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^  Column2;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^  Column3;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^  Column4;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^  Column5;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^  Column6;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^  Column7;
-	private: System::Windows::Forms::DataGridViewTextBoxColumn^  Column8;
+
+
+
+
+
+
+
+
 	private: System::Windows::Forms::Label^  label6;
 	private: System::Windows::Forms::DataGridView^  dataGridView4;
 	private: System::Windows::Forms::DataGridViewTextBoxColumn^  dataGridViewTextBoxColumn1;
@@ -130,6 +130,20 @@ private: System::Windows::Forms::DataGridViewTextBoxColumn^  dataGridViewTextBox
 private: System::Windows::Forms::DataGridViewTextBoxColumn^  dataGridViewTextBoxColumn24;
 private: System::Windows::Forms::Label^  label9;
 private: System::Windows::Forms::Button^  button1;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^  Column1;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^  Column2;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^  Column3;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^  Column4;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^  Column5;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^  Column6;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^  Column7;
+private: System::Windows::Forms::DataGridViewTextBoxColumn^  Column8;
+private: System::Windows::Forms::Label^  label10;
+private: System::Windows::Forms::Label^  label11;
+private: System::Windows::Forms::Label^  label12;
+private: System::Windows::Forms::Label^  label13;
+private: System::Windows::Forms::Label^  label14;
+private: System::Windows::Forms::Label^  label15;
 	protected:
 
 	private:
@@ -192,6 +206,12 @@ private: System::Windows::Forms::Button^  button1;
 			this->dataGridViewTextBoxColumn24 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->label9 = (gcnew System::Windows::Forms::Label());
 			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->label10 = (gcnew System::Windows::Forms::Label());
+			this->label11 = (gcnew System::Windows::Forms::Label());
+			this->label12 = (gcnew System::Windows::Forms::Label());
+			this->label13 = (gcnew System::Windows::Forms::Label());
+			this->label14 = (gcnew System::Windows::Forms::Label());
+			this->label15 = (gcnew System::Windows::Forms::Label());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView4))->BeginInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView2))->BeginInit();
@@ -214,82 +234,82 @@ private: System::Windows::Forms::Button^  button1;
 				this->Column1,
 					this->Column2, this->Column3, this->Column4, this->Column5, this->Column6, this->Column7, this->Column8
 			});
-			this->dataGridView1->Location = System::Drawing::Point(12, 83);
+			this->dataGridView1->Location = System::Drawing::Point(76, 87);
 			this->dataGridView1->Name = L"dataGridView1";
 			this->dataGridView1->Size = System::Drawing::Size(850, 53);
 			this->dataGridView1->TabIndex = 1;
 			// 
 			// Column1
 			// 
-			this->Column1->HeaderText = L"B63";
+			this->Column1->HeaderText = L"Mu при B63";
 			this->Column1->Name = L"Column1";
 			// 
 			// Column2
 			// 
-			this->Column2->HeaderText = L"B125";
+			this->Column2->HeaderText = L"Mu при B125";
 			this->Column2->Name = L"Column2";
 			// 
 			// Column3
 			// 
-			this->Column3->HeaderText = L"B250";
+			this->Column3->HeaderText = L"Mu при B250";
 			this->Column3->Name = L"Column3";
 			// 
 			// Column4
 			// 
-			this->Column4->HeaderText = L"B500";
+			this->Column4->HeaderText = L"Mu при B500";
 			this->Column4->Name = L"Column4";
 			// 
 			// Column5
 			// 
-			this->Column5->HeaderText = L"B1000";
+			this->Column5->HeaderText = L"Mu при B1000";
 			this->Column5->Name = L"Column5";
 			// 
 			// Column6
 			// 
-			this->Column6->HeaderText = L"B2000";
+			this->Column6->HeaderText = L"Mu при B2000";
 			this->Column6->Name = L"Column6";
 			// 
 			// Column7
 			// 
-			this->Column7->HeaderText = L"B4000";
+			this->Column7->HeaderText = L"Mu при B4000";
 			this->Column7->Name = L"Column7";
 			// 
 			// Column8
 			// 
-			this->Column8->HeaderText = L"B8000";
+			this->Column8->HeaderText = L"Mu при B8000";
 			this->Column8->Name = L"Column8";
 			// 
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(932, 46);
+			this->label2->Location = System::Drawing::Point(1045, 35);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(29, 13);
+			this->label2->Size = System::Drawing::Size(84, 13);
 			this->label2->TabIndex = 4;
-			this->label2->Text = L"S1= ";
+			this->label2->Text = L"S1= Om*R1^2 =";
 			// 
 			// label3
 			// 
 			this->label3->AutoSize = true;
-			this->label3->Location = System::Drawing::Point(932, 73);
+			this->label3->Location = System::Drawing::Point(1045, 62);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(29, 13);
+			this->label3->Size = System::Drawing::Size(84, 13);
 			this->label3->TabIndex = 5;
-			this->label3->Text = L"S2 =";
+			this->label3->Text = L"S2 =Om*R2^2 =";
 			// 
 			// label4
 			// 
 			this->label4->AutoSize = true;
-			this->label4->Location = System::Drawing::Point(932, 98);
+			this->label4->Location = System::Drawing::Point(1045, 87);
 			this->label4->Name = L"label4";
-			this->label4->Size = System::Drawing::Size(29, 13);
+			this->label4->Size = System::Drawing::Size(87, 13);
 			this->label4->TabIndex = 6;
-			this->label4->Text = L"S3 =";
+			this->label4->Text = L"S3 = Om*R1^2 =";
 			// 
 			// label5
 			// 
 			this->label5->AutoSize = true;
-			this->label5->Location = System::Drawing::Point(932, 123);
+			this->label5->Location = System::Drawing::Point(1045, 112);
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(50, 13);
 			this->label5->TabIndex = 7;
@@ -298,7 +318,7 @@ private: System::Windows::Forms::Button^  button1;
 			// label6
 			// 
 			this->label6->AutoSize = true;
-			this->label6->Location = System::Drawing::Point(325, 57);
+			this->label6->Location = System::Drawing::Point(438, 62);
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(92, 13);
 			this->label6->TabIndex = 8;
@@ -312,7 +332,7 @@ private: System::Windows::Forms::Button^  button1;
 					this->dataGridViewTextBoxColumn2, this->dataGridViewTextBoxColumn3, this->dataGridViewTextBoxColumn4, this->dataGridViewTextBoxColumn5,
 					this->dataGridViewTextBoxColumn6, this->dataGridViewTextBoxColumn7, this->dataGridViewTextBoxColumn8
 			});
-			this->dataGridView4->Location = System::Drawing::Point(12, 525);
+			this->dataGridView4->Location = System::Drawing::Point(76, 580);
 			this->dataGridView4->Name = L"dataGridView4";
 			this->dataGridView4->Size = System::Drawing::Size(850, 47);
 			this->dataGridView4->TabIndex = 9;
@@ -365,7 +385,7 @@ private: System::Windows::Forms::Button^  button1;
 					this->dataGridViewTextBoxColumn10, this->dataGridViewTextBoxColumn11, this->dataGridViewTextBoxColumn12, this->dataGridViewTextBoxColumn13,
 					this->dataGridViewTextBoxColumn14, this->dataGridViewTextBoxColumn15, this->dataGridViewTextBoxColumn16
 			});
-			this->dataGridView2->Location = System::Drawing::Point(12, 187);
+			this->dataGridView2->Location = System::Drawing::Point(76, 224);
 			this->dataGridView2->Name = L"dataGridView2";
 			this->dataGridView2->Size = System::Drawing::Size(850, 53);
 			this->dataGridView2->TabIndex = 10;
@@ -413,20 +433,20 @@ private: System::Windows::Forms::Button^  button1;
 			// label7
 			// 
 			this->label7->AutoSize = true;
-			this->label7->Location = System::Drawing::Point(325, 270);
+			this->label7->Location = System::Drawing::Point(438, 298);
 			this->label7->Name = L"label7";
-			this->label7->Size = System::Drawing::Size(83, 13);
+			this->label7->Size = System::Drawing::Size(111, 13);
 			this->label7->TabIndex = 11;
-			this->label7->Text = L"Таблица для  L";
+			this->label7->Text = L"Таблица для  Lp [дБ]";
 			// 
 			// label8
 			// 
 			this->label8->AutoSize = true;
-			this->label8->Location = System::Drawing::Point(349, 498);
+			this->label8->Location = System::Drawing::Point(438, 508);
 			this->label8->Name = L"label8";
-			this->label8->Size = System::Drawing::Size(91, 13);
+			this->label8->Size = System::Drawing::Size(149, 13);
 			this->label8->TabIndex = 12;
-			this->label8->Text = L"Таблица для  Lw";
+			this->label8->Text = L"Таблица для  L summary [дБ]";
 			// 
 			// dataGridView3
 			// 
@@ -436,9 +456,9 @@ private: System::Windows::Forms::Button^  button1;
 					this->dataGridViewTextBoxColumn18, this->dataGridViewTextBoxColumn19, this->dataGridViewTextBoxColumn20, this->dataGridViewTextBoxColumn21,
 					this->dataGridViewTextBoxColumn22, this->dataGridViewTextBoxColumn23, this->dataGridViewTextBoxColumn24
 			});
-			this->dataGridView3->Location = System::Drawing::Point(12, 305);
+			this->dataGridView3->Location = System::Drawing::Point(76, 354);
 			this->dataGridView3->Name = L"dataGridView3";
-			this->dataGridView3->Size = System::Drawing::Size(850, 176);
+			this->dataGridView3->Size = System::Drawing::Size(850, 121);
 			this->dataGridView3->TabIndex = 13;
 			// 
 			// dataGridViewTextBoxColumn17
@@ -484,7 +504,7 @@ private: System::Windows::Forms::Button^  button1;
 			// label9
 			// 
 			this->label9->AutoSize = true;
-			this->label9->Location = System::Drawing::Point(325, 152);
+			this->label9->Location = System::Drawing::Point(438, 172);
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(84, 13);
 			this->label9->TabIndex = 14;
@@ -492,7 +512,7 @@ private: System::Windows::Forms::Button^  button1;
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(341, 615);
+			this->button1->Location = System::Drawing::Point(455, 659);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(75, 23);
 			this->button1->TabIndex = 15;
@@ -500,11 +520,71 @@ private: System::Windows::Forms::Button^  button1;
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &Formula::button1_Click);
 			// 
+			// label10
+			// 
+			this->label10->AutoSize = true;
+			this->label10->Location = System::Drawing::Point(438, 197);
+			this->label10->Name = L"label10";
+			this->label10->Size = System::Drawing::Size(83, 13);
+			this->label10->TabIndex = 16;
+			this->label10->Text = L"Bi = B1000*Mu.i";
+			// 
+			// label11
+			// 
+			this->label11->AutoSize = true;
+			this->label11->Location = System::Drawing::Point(428, 323);
+			this->label11->Name = L"label11";
+			this->label11->Size = System::Drawing::Size(137, 13);
+			this->label11->TabIndex = 17;
+			this->label11->Text = L" Lp.i = Lw+10lg(1/Si + 4/Bi)";
+			// 
+			// label12
+			// 
+			this->label12->AutoSize = true;
+			this->label12->Location = System::Drawing::Point(32, 382);
+			this->label12->Name = L"label12";
+			this->label12->Size = System::Drawing::Size(25, 13);
+			this->label12->TabIndex = 18;
+			this->label12->Text = L"Lp1";
+			// 
+			// label13
+			// 
+			this->label13->AutoSize = true;
+			this->label13->Location = System::Drawing::Point(32, 407);
+			this->label13->Name = L"label13";
+			this->label13->Size = System::Drawing::Size(25, 13);
+			this->label13->TabIndex = 19;
+			this->label13->Text = L"Lp2";
+			// 
+			// label14
+			// 
+			this->label14->AutoSize = true;
+			this->label14->Location = System::Drawing::Point(32, 432);
+			this->label14->Name = L"label14";
+			this->label14->Size = System::Drawing::Size(25, 13);
+			this->label14->TabIndex = 20;
+			this->label14->Text = L"Lp3";
+			// 
+			// label15
+			// 
+			this->label15->AutoSize = true;
+			this->label15->Location = System::Drawing::Point(387, 547);
+			this->label15->Name = L"label15";
+			this->label15->Size = System::Drawing::Size(257, 13);
+			this->label15->TabIndex = 21;
+			this->label15->Text = L"L summary  (i)= 10lg( Summary[1,2,3](  10^(0.1*Lpi)  ))";
+			// 
 			// Formula
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1079, 780);
+			this->ClientSize = System::Drawing::Size(1311, 695);
+			this->Controls->Add(this->label15);
+			this->Controls->Add(this->label14);
+			this->Controls->Add(this->label13);
+			this->Controls->Add(this->label12);
+			this->Controls->Add(this->label11);
+			this->Controls->Add(this->label10);
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->label9);
 			this->Controls->Add(this->dataGridView3);
@@ -542,9 +622,11 @@ private: System::Windows::Forms::Button^  button1;
 		array <double>^ Lw;
 
 	private: System::Void Formula_Load(System::Object^  sender, System::EventArgs^  e) {
+
 		mu1 = gcnew array<double> {0.8, 0.75, 0.7, 0.8, 1, 1.4, 1.8, 2.5};
 		mu2 = gcnew array<double> {0.65, 0.62, 0.64, 0.75, 1, 1.5, 2.4, 4.2};
 		mu3 = gcnew array<double> {0.5, 0.5, 0.55, 0.7, 1, 1.6, 3, 6};
+
 		L1 = gcnew array <double>(8);//double??
 		L2 = gcnew array <double>(8);
 		L3 = gcnew array <double>(8);
@@ -560,19 +642,20 @@ private: System::Windows::Forms::Button^  button1;
 
 		double B1000 = var->V*1.0 / var->znamenatel;
 
-
-		label5->Text += " " + Convert::ToString(B1000);
+		label5->Text += " V/";
+		label5->Text += var->znamenatel;
+		label5->Text += " = " + Convert::ToString(B1000);
 
 		array <double>^ mu;
 		if (var->V < 200)
 		{
 			mu = mu1;
 		}
-		if (var->V > 200 && var->V < 1000)
+		else if (var->V >= 200 && var->V <= 1000)
 		{
 			mu = mu2;
 		}
-		if (var->V >= 1000)
+		else
 		{
 			mu = mu3;
 		}
@@ -610,7 +693,7 @@ private: System::Windows::Forms::Button^  button1;
 	}
 	private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
 
-		Graph ^g = gcnew Graph(Lw);
+		Graph ^g = gcnew Graph(Lw, var->znamenatel);
 		g->ShowDialog();
 
 	}

@@ -35,6 +35,23 @@ namespace WindowsFormsApp {
 	private: System::Windows::Forms::ComboBox^  comboBox1;
 	private: System::Windows::Forms::Label^  label1;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	public:
 
 	public:
@@ -77,7 +94,7 @@ namespace WindowsFormsApp {
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(139, 64);
+			this->button1->Location = System::Drawing::Point(110, 64);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(75, 23);
 			this->button1->TabIndex = 4;
@@ -92,7 +109,7 @@ namespace WindowsFormsApp {
 				L"1", L"2", L"3", L"4", L"5", L"6", L"7", L"8",
 					L"9", L"10", L"11", L"12", L"13", L"14", L"15", L"16", L"17", L"18", L"19", L"20", L"21", L"22", L"23", L"24", L"25"
 			});
-			this->comboBox1->Location = System::Drawing::Point(93, 12);
+			this->comboBox1->Location = System::Drawing::Point(93, 25);
 			this->comboBox1->Name = L"comboBox1";
 			this->comboBox1->Size = System::Drawing::Size(121, 21);
 			this->comboBox1->TabIndex = 5;
@@ -100,22 +117,22 @@ namespace WindowsFormsApp {
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Location = System::Drawing::Point(15, 15);
+			this->label1->Location = System::Drawing::Point(44, 9);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(49, 13);
+			this->label1->Size = System::Drawing::Size(201, 13);
 			this->label1->TabIndex = 6;
-			this->label1->Text = L"Вариант";
+			this->label1->Text = L"Выберите вариант для гурппы ЮР2-61";
 			// 
 			// Form1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(234, 119);
+			this->ClientSize = System::Drawing::Size(297, 125);
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->comboBox1);
 			this->Controls->Add(this->button1);
 			this->Name = L"Form1";
-			this->Text = L"Form1";
+			this->Text = L"Новиков М. Д. ЮР2-51";
 			this->Load += gcnew System::EventHandler(this, &Form1::Form1_Load);
 			this->ResumeLayout(false);
 			this->PerformLayout();
@@ -233,20 +250,21 @@ namespace WindowsFormsApp {
 
 		int var = Convert::ToInt32(comboBox1->SelectedIndex+1);
 
+
+
+
+
 		for (int i = 0; i < 25; i++)
 		{
 			if (var==vars[i].variant)
 			{
-				int scheme;
-				int variant;
-				double formula1;
-				double formula2;
-				double formula3;
-				int R1, R2, R3;
-				array <int>^ Lp1, ^ Lp2, ^ Lp3;
+		/*		vars[i].znamenatel = Convert::ToDouble(textBox1->Text);
 
-				int V;
-				int znamenatel;
+				vars[i].R1 = Convert::ToInt32(textBox3->Text);
+				vars[i].R2 = Convert::ToInt32(textBox4->Text);
+				vars[i].R3= Convert::ToInt32(textBox5->Text);
+
+				vars[i].V = Convert::ToInt32(textBox2->Text);*/
 
 				Formula^ f = gcnew Formula(vars[i].scheme, vars[i].variant, vars[i].formula1, vars[i].formula2, vars[i].formula3, vars[i].R1, vars[i].R2, vars[i].R3, vars[i].Lp1, vars[i].Lp2, vars[i].Lp3, vars[i].V, vars[i].znamenatel);
 				f->ShowDialog();
