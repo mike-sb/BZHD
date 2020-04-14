@@ -52,3 +52,6 @@ Struct WindowsFormsApp.Formula+Var: AutoLayout, AnsiClass, Class, NestedPublic, 
 Class WindowsFormsApp.Form1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    pictureBox1_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    check(String, Int32[]): PrivateScope, Public, HideBySig

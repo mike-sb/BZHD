@@ -1,0 +1,57 @@
+  WindowsFormsApp.Form1.resources - Embedded, ContainedInManifestFile, 
+  WindowsFormsApp.Formula1.resources - Embedded, ContainedInManifestFile, 
+  WindowsFormsApp.Graph.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly WindowsFormsApp, Version=1.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class WindowsFormsApp.Graph: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Double type : Public
+  Methods:
+    set_arr(Double[]): PrivateScope, Public, HideBySig
+    set_type(Double): PrivateScope, Public, HideBySig
+Class WindowsFormsApp.Formula: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int32, Int32, Double, Double, Double, Int32, Int32, Int32, Int32[], Int32[], Int32[], Int32, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.ValueType var Var IsBoxed : Public
+Struct WindowsFormsApp.Formula+Var: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 scheme : Public
+    Int32 variant : Public
+    Double formula1 : Public
+    Double formula2 : Public
+    Double formula3 : Public
+    Int32 R1 : Public
+    Int32 R2 : Public
+    Int32 R3 : Public
+    Int32[] Lp1 : Public
+    Int32[] Lp2 : Public
+    Int32[] Lp3 : Public
+    Int32 V : Public
+    Double znamenatel : Public
+  Methods:
+    constructor(Int32, Int32, Double, Double, Double, Int32, Int32, Int32, Int32[], Int32[], Int32[], Int32, Double): PrivateScope, Public, HideBySig
+Class WindowsFormsApp.Form1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    pictureBox1_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    check(String, Int32[]): PrivateScope, Public, HideBySig

@@ -44,6 +44,12 @@ namespace WindowsFormsApp {
 	private: System::Windows::Forms::TextBox^  textBox4;
 	private: System::Windows::Forms::TextBox^  textBox5;
 	private: System::Windows::Forms::Label^  label6;
+	private: System::Windows::Forms::TextBox^  textBox6;
+	private: System::Windows::Forms::TextBox^  textBox7;
+	private: System::Windows::Forms::TextBox^  textBox8;
+	private: System::Windows::Forms::Label^  label7;
+	private: System::Windows::Forms::Label^  label8;
+	private: System::Windows::Forms::Label^  label9;
 
 
 
@@ -110,11 +116,17 @@ namespace WindowsFormsApp {
 			this->textBox4 = (gcnew System::Windows::Forms::TextBox());
 			this->textBox5 = (gcnew System::Windows::Forms::TextBox());
 			this->label6 = (gcnew System::Windows::Forms::Label());
+			this->textBox6 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox7 = (gcnew System::Windows::Forms::TextBox());
+			this->textBox8 = (gcnew System::Windows::Forms::TextBox());
+			this->label7 = (gcnew System::Windows::Forms::Label());
+			this->label8 = (gcnew System::Windows::Forms::Label());
+			this->label9 = (gcnew System::Windows::Forms::Label());
 			this->SuspendLayout();
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(93, 318);
+			this->button1->Location = System::Drawing::Point(170, 305);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(75, 23);
 			this->button1->TabIndex = 4;
@@ -129,7 +141,7 @@ namespace WindowsFormsApp {
 				L"1", L"2", L"3", L"4", L"5", L"6", L"7", L"8",
 					L"9", L"10", L"11", L"12", L"13", L"14", L"15", L"16", L"17", L"18", L"19", L"20", L"21", L"22", L"23", L"24", L"25"
 			});
-			this->comboBox1->Location = System::Drawing::Point(93, 25);
+			this->comboBox1->Location = System::Drawing::Point(157, 25);
 			this->comboBox1->Name = L"comboBox1";
 			this->comboBox1->Size = System::Drawing::Size(121, 21);
 			this->comboBox1->TabIndex = 5;
@@ -137,7 +149,7 @@ namespace WindowsFormsApp {
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Location = System::Drawing::Point(44, 9);
+			this->label1->Location = System::Drawing::Point(108, 9);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(201, 13);
 			this->label1->TabIndex = 6;
@@ -145,7 +157,7 @@ namespace WindowsFormsApp {
 			// 
 			// textBox1
 			// 
-			this->textBox1->Location = System::Drawing::Point(93, 105);
+			this->textBox1->Location = System::Drawing::Point(157, 251);
 			this->textBox1->Name = L"textBox1";
 			this->textBox1->Size = System::Drawing::Size(100, 20);
 			this->textBox1->TabIndex = 7;
@@ -153,7 +165,7 @@ namespace WindowsFormsApp {
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(44, 79);
+			this->label2->Location = System::Drawing::Point(108, 225);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(211, 13);
 			this->label2->TabIndex = 8;
@@ -162,7 +174,7 @@ namespace WindowsFormsApp {
 			// label3
 			// 
 			this->label3->AutoSize = true;
-			this->label3->Location = System::Drawing::Point(47, 168);
+			this->label3->Location = System::Drawing::Point(36, 66);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(21, 13);
 			this->label3->TabIndex = 9;
@@ -171,7 +183,7 @@ namespace WindowsFormsApp {
 			// label4
 			// 
 			this->label4->AutoSize = true;
-			this->label4->Location = System::Drawing::Point(47, 208);
+			this->label4->Location = System::Drawing::Point(36, 106);
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(21, 13);
 			this->label4->TabIndex = 10;
@@ -180,7 +192,7 @@ namespace WindowsFormsApp {
 			// label5
 			// 
 			this->label5->AutoSize = true;
-			this->label5->Location = System::Drawing::Point(47, 244);
+			this->label5->Location = System::Drawing::Point(36, 142);
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(21, 13);
 			this->label5->TabIndex = 11;
@@ -188,28 +200,28 @@ namespace WindowsFormsApp {
 			// 
 			// textBox2
 			// 
-			this->textBox2->Location = System::Drawing::Point(93, 168);
+			this->textBox2->Location = System::Drawing::Point(82, 66);
 			this->textBox2->Name = L"textBox2";
 			this->textBox2->Size = System::Drawing::Size(100, 20);
 			this->textBox2->TabIndex = 12;
 			// 
 			// textBox3
 			// 
-			this->textBox3->Location = System::Drawing::Point(93, 205);
+			this->textBox3->Location = System::Drawing::Point(82, 103);
 			this->textBox3->Name = L"textBox3";
 			this->textBox3->Size = System::Drawing::Size(100, 20);
 			this->textBox3->TabIndex = 13;
 			// 
 			// textBox4
 			// 
-			this->textBox4->Location = System::Drawing::Point(93, 241);
+			this->textBox4->Location = System::Drawing::Point(82, 139);
 			this->textBox4->Name = L"textBox4";
 			this->textBox4->Size = System::Drawing::Size(100, 20);
 			this->textBox4->TabIndex = 14;
 			// 
 			// textBox5
 			// 
-			this->textBox5->Location = System::Drawing::Point(93, 276);
+			this->textBox5->Location = System::Drawing::Point(82, 174);
 			this->textBox5->Name = L"textBox5";
 			this->textBox5->Size = System::Drawing::Size(100, 20);
 			this->textBox5->TabIndex = 16;
@@ -217,17 +229,71 @@ namespace WindowsFormsApp {
 			// label6
 			// 
 			this->label6->AutoSize = true;
-			this->label6->Location = System::Drawing::Point(47, 279);
+			this->label6->Location = System::Drawing::Point(36, 177);
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(14, 13);
 			this->label6->TabIndex = 15;
 			this->label6->Text = L"V";
 			// 
+			// textBox6
+			// 
+			this->textBox6->Location = System::Drawing::Point(262, 63);
+			this->textBox6->Name = L"textBox6";
+			this->textBox6->Size = System::Drawing::Size(100, 20);
+			this->textBox6->TabIndex = 22;
+			// 
+			// textBox7
+			// 
+			this->textBox7->Location = System::Drawing::Point(262, 103);
+			this->textBox7->Name = L"textBox7";
+			this->textBox7->Size = System::Drawing::Size(100, 20);
+			this->textBox7->TabIndex = 21;
+			// 
+			// textBox8
+			// 
+			this->textBox8->Location = System::Drawing::Point(262, 139);
+			this->textBox8->Name = L"textBox8";
+			this->textBox8->Size = System::Drawing::Size(100, 20);
+			this->textBox8->TabIndex = 20;
+			// 
+			// label7
+			// 
+			this->label7->AutoSize = true;
+			this->label7->Location = System::Drawing::Point(216, 142);
+			this->label7->Name = L"label7";
+			this->label7->Size = System::Drawing::Size(19, 13);
+			this->label7->TabIndex = 19;
+			this->label7->Text = L"L3";
+			// 
+			// label8
+			// 
+			this->label8->AutoSize = true;
+			this->label8->Location = System::Drawing::Point(216, 106);
+			this->label8->Name = L"label8";
+			this->label8->Size = System::Drawing::Size(19, 13);
+			this->label8->TabIndex = 18;
+			this->label8->Text = L"L2";
+			// 
+			// label9
+			// 
+			this->label9->AutoSize = true;
+			this->label9->Location = System::Drawing::Point(216, 66);
+			this->label9->Name = L"label9";
+			this->label9->Size = System::Drawing::Size(19, 13);
+			this->label9->TabIndex = 17;
+			this->label9->Text = L"L1";
+			// 
 			// Form1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(282, 353);
+			this->ClientSize = System::Drawing::Size(406, 353);
+			this->Controls->Add(this->textBox6);
+			this->Controls->Add(this->textBox7);
+			this->Controls->Add(this->textBox8);
+			this->Controls->Add(this->label7);
+			this->Controls->Add(this->label8);
+			this->Controls->Add(this->label9);
 			this->Controls->Add(this->textBox5);
 			this->Controls->Add(this->label6);
 			this->Controls->Add(this->textBox4);
@@ -285,8 +351,9 @@ namespace WindowsFormsApp {
 		Var v1, v2, v3, v4, v5, v6, v7, v8, v9, v10, v11, v12, v13, v14, v15, v16, v17, v18, v19, v20, v21, v22, v23, v24, v25;
 		array  <Var> ^vars = gcnew array<Var>(25);
 
-	private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e) {
 
+
+	private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e) {
 		array <int>^ L1 = gcnew array<int> {84, 82, 84, 91, 94, 94, 91, 91};
 		array <int>^ L2 = gcnew array<int> {80, 84, 83, 87, 84, 82, 94, 96};
 		array <int>^ L3 = gcnew array<int> {81, 82, 83, 84, 83, 81, 80, 77};
@@ -352,27 +419,79 @@ namespace WindowsFormsApp {
 		vars[24] = (v25);
 
 	}
-	private: System::Void pictureBox1_Click(System::Object^  sender, System::EventArgs^  e) {
+	public: System::Void pictureBox1_Click(System::Object^  sender, System::EventArgs^  e) {
 	}
 
+	public: System::Void check(String^ text, array <int>^ Ln)
+	{
+		array <int>^ L1 = gcnew array<int> {84, 82, 84, 91, 94, 94, 91, 91};
+		array <int>^ L2 = gcnew array<int> {80, 84, 83, 87, 84, 82, 94, 96};
+		array <int>^ L3 = gcnew array<int> {81, 82, 83, 84, 83, 81, 80, 77};
+		array <int>^ L4 = gcnew array<int> {72, 72, 68, 68, 68, 68, 71, 70};
+		array <int>^ L5 = gcnew array<int> {78, 81, 83, 85, 85, 86, 89, 85};
+		array <int>^ L6 = gcnew array<int> {83, 87, 85, 85, 85, 82, 83, 83};
+		array <int>^ L7 = gcnew array<int> {68, 70, 73, 79, 81, 82, 80, 73};
+		array <int>^ L8 = gcnew array<int> {101, 102, 100, 101, 99, 99, 97, 95};
+		array <int>^ L9 = gcnew array<int> {90, 91, 98, 99, 97, 93, 91, 86};
+		array <int>^ L10 = gcnew array<int> {90, 91, 98, 99, 97, 93, 91, 86};
+
+		int type = Convert::ToInt32(text);
+		switch (type)
+		{
+		case 1:
+			Ln = L1;
+			break;
+		case 2:
+			Ln = L2;
+			break;
+		case 3:
+			Ln = L3;
+			break;
+		case 4:
+			Ln = L4;
+			break;
+		case 5:
+			Ln = L5;
+			break;
+		case 6:
+			Ln = L6;
+			break;
+		case 7:
+			Ln = L7;
+			break;
+		case 8:
+			Ln = L8;
+			break;
+		case 9:
+			Ln = L9;
+			break;
+		case 10:
+			Ln = L10;
+			break;
+
+		default:
+			break;
+		}
+	}
 
 	private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
 
-		int var = Convert::ToInt32(comboBox1->SelectedIndex+1);
-
-
+		int var = Convert::ToInt32(comboBox1->SelectedIndex + 1);
 
 
 
 		for (int i = 0; i < 25; i++)
 		{
-			if (var==vars[i].variant)
+			if (var == vars[i].variant)
 			{
-			vars[i].znamenatel = Convert::ToDouble(textBox1->Text);
+				vars[i].znamenatel = Convert::ToDouble(textBox1->Text);
+				check(textBox6->Text, vars[i].Lp1);
+				check(textBox7->Text, vars[i].Lp2);
+				check(textBox8->Text, vars[i].Lp3);
 
 				vars[i].R1 = Convert::ToInt32(textBox2->Text);
 				vars[i].R2 = Convert::ToInt32(textBox3->Text);
-				vars[i].R3= Convert::ToInt32(textBox4->Text);
+				vars[i].R3 = Convert::ToInt32(textBox4->Text);
 
 				vars[i].V = Convert::ToInt32(textBox5->Text);
 

@@ -1,10 +1,1 @@
-﻿cl : командная строка warning D9035: использование параметра "clr:pure" нежелательно, он будет удален в следующих выпусках
-  Formula1.cpp
-  Graph.cpp
-  WindowsFormsApp.cpp
-  Создание кода...
-cl : командная строка warning D9035: использование параметра "clr:pure" нежелательно, он будет удален в следующих выпусках
-  .NETFramework,Version=v4.5.AssemblyAttributes.cpp
-  AssemblyInfo.obj : /DEBUG:FASTLINK не поддерживается, если присутствует управляемый код; выполняется перезапуск компоновки с /DEBUG:FULL
-  AssemblyInfo.obj : юсэрЁєцхэ ьюфєы№ MSIL; фы  MSIL яюёыхфютрЄхы№эр  ъюьяюэютър юЄъы■ўхэр; т√яюыэ хЄё  яюыэр  ъюьяюэютър
-  WindowsFormsApp.vcxproj -> C:\Users\i5\Desktop\Дз БЖД\Debug\WindowsFormsApp.exe
+﻿  WindowsFormsApp.vcxproj -> C:\Users\i5\Desktop\Дз БЖД\Debug\WindowsFormsApp.exe
