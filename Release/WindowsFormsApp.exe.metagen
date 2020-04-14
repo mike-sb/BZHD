@@ -20,10 +20,12 @@ Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c5619
 	hash=None, flags=None
 Class WindowsFormsApp.Graph: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
-    Void .ctor(Double[], Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Fields:
     Double type : Public
-    Double[] Lw : Public
+  Methods:
+    set_arr(Double[]): PrivateScope, Public, HideBySig
+    set_type(Double): PrivateScope, Public, HideBySig
 Class WindowsFormsApp.Formula: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(Int32, Int32, Double, Double, Double, Int32, Int32, Int32, Int32[], Int32[], Int32[], Int32, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

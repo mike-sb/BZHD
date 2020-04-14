@@ -693,7 +693,12 @@ private: System::Windows::Forms::Label^  label15;
 	}
 	private: System::Void button1_Click(System::Object^  sender, System::EventArgs^  e) {
 
-		Graph ^g = gcnew Graph(Lw, var->znamenatel);
+		double zn = var->znamenatel;
+		Graph ^g = gcnew Graph();
+
+		g->set_arr(Lw);
+		g->set_type(zn);
+
 		g->ShowDialog();
 
 	}
