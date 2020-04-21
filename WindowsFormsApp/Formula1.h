@@ -304,7 +304,7 @@ private: System::Windows::Forms::Label^  label15;
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(87, 13);
 			this->label4->TabIndex = 6;
-			this->label4->Text = L"S3 = Om*R1^2 =";
+			this->label4->Text = L"S3 = Om*R3^2 =";
 			// 
 			// label5
 			// 
@@ -636,6 +636,10 @@ private: System::Windows::Forms::Label^  label15;
 		double S1 = var->formula1*var->R1*var->R1;
 		double S2 = var->formula2*var->R2*var->R2;
 		double S3 = var->formula3*var->R3*var->R3;
+
+
+
+
 		label2->Text += " " + Convert::ToString(S1);
 		label3->Text += " " + Convert::ToString(S2);
 		label4->Text += " " + Convert::ToString(S3);
