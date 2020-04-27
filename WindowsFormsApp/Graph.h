@@ -483,6 +483,7 @@ namespace WindowsFormsApp {
 		array <double>^ Ln2 = gcnew array <double>(8) {79,	70,68,58,55,52,52,49};
 		array <double>^ Ln3 = gcnew array <double>(8) {	83,	74,	68,63,60,57,55,	54};
 		array <double>^ Ln4 = gcnew array <double>(8) {91,83,77,73,70,	68,66,64};
+		array <double>^ Ln5 = gcnew array <double>(8) { 95, 87, 82, 78, 75, 73, 71, 69 };
 
 		label1->Text += Lw[0];
 		label2->Text += Lw[1];
@@ -525,20 +526,20 @@ namespace WindowsFormsApp {
 
 		if (type == 20)
 		{
-			Ln = Ln1;
+			Ln = Ln4;
 		}
 		else if (type == 10)
 		{
-			Ln = Ln2;
+			Ln = Ln3;
 		}
 
 		else if (type == 6)
 		{
-			Ln = Ln3;
+			Ln = Ln2;
 		}
 		else
 		{
-			Ln = Ln4;
+			Ln = Ln1;
 		}
 
 		for (int i = 0; i < 8; i++)

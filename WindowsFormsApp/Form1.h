@@ -369,7 +369,7 @@ namespace WindowsFormsApp {
 		v2.constructor(2, 2, 4 * Math::PI, Math::PI, Math::PI, 10, 14, 3, L3, L2, L1, 1800, 1.5);
 		v3.constructor(1, 3, 2 * Math::PI, 0.5* Math::PI, 0.5 * Math::PI, 15, 15, 15, L3, L7, L10, 3000, 10);
 
-		v4.constructor(2, 4, 2 * Math::PI, 4 * Math::PI, 0.5 *  Math::PI, 12, 13, 8, L9, L4, L1, 1800, 20);
+		v4.constructor(2, 4, 2 * Math::PI, 2 * Math::PI, 0.5 *  Math::PI, 12, 13, 8, L9, L4, L1, 1800, 20);
 
 		v5.constructor(1, 5, 2 * Math::PI, Math::PI, 0.5 * Math::PI, 5, 5, 5, L4, L5, L6, 1000, 6);
 		v6.constructor(2, 6, 2 * Math::PI, 2 * Math::PI, Math::PI, 7, 11, 9, L6, L7, L2, 1800, 6);

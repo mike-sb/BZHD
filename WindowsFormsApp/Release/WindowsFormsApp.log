@@ -1,3 +1,8 @@
 ﻿cl : командная строка warning D9035: использование параметра "clr:pure" нежелательно, он будет удален в следующих выпусках
+  Formula1.cpp
+  Graph.cpp
   WindowsFormsApp.cpp
+  Создание кода...
+cl : командная строка warning D9035: использование параметра "clr:pure" нежелательно, он будет удален в следующих выпусках
+  .NETFramework,Version=v4.5.AssemblyAttributes.cpp
   WindowsFormsApp.vcxproj -> C:\Users\i5\Desktop\Дз БЖД\Release\WindowsFormsApp.exe
